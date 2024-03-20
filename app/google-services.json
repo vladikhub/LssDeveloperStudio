@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1039106314042",
+    "firebase_url": "https://lssdeveloper-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lssdeveloper",
+    "storage_bucket": "lssdeveloper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039106314042:android:d3179ba595b08fe71bca03",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9paWMOSrO2EWLRwp-kdJIfJojJL2gtA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039106314042:android:702bd92935cbd8fd1bca03",
+        "android_client_info": {
+          "package_name": "com.example.testname"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9paWMOSrO2EWLRwp-kdJIfJojJL2gtA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
