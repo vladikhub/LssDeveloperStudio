@@ -10,7 +10,7 @@
         android:layout_width="280dp"
         android:layout_height="48dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/edit_text_style"
         android:drawableLeft="@drawable/baseline_alternate_email_24"
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labale" />
+        app:layout_constraintTop_toBottomOf="@+id/emailIcon" />
 
     <EditText
         android:id="@+id/pass"
@@ -89,17 +89,14 @@
         app:layout_constraintTop_toBottomOf="@+id/pass"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/labale"
-        android:layout_width="341dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="30dp"
-        android:fontFamily="cursive"
-        android:gravity="center"
-        android:text="@string/app_compani_name"
-        android:textSize="18pt"
+    <ImageView
+        android:id="@+id/emailIcon"
+        android:layout_width="177dp"
+        android:layout_height="153dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="92dp"
+        android:animateLayoutChanges="true"
+        android:src="@drawable/baseline_account_circle_24"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
